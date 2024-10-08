@@ -1,0 +1,20 @@
+server:
+  port: 9000
+
+url:
+  shortener:
+    domain: https://localhost/
+
+
+spring:
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      
+logging:
+   level:
+      org:
+         springframework:
+            cache: DEBUG
+
